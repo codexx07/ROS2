@@ -1,0 +1,33 @@
+[0.572s] Invoking command in '/home/sparsh/ros2_ws/src/talker_listener': PYTHONPATH=/home/sparsh/ros2_ws/build/talker_listener/prefix_override:/home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/sparsh/ros2_ws/build/talker_listener/build install --record /home/sparsh/ros2_ws/build/talker_listener/install.log --single-version-externally-managed
+[0.747s] running egg_info
+[0.747s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[0.750s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[0.751s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.752s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.753s] running build
+[0.753s] running build_py
+[0.753s] copying talker_listener/talker_listener.launch.py -> /home/sparsh/ros2_ws/build/talker_listener/build/lib/talker_listener
+[0.754s] running install
+[0.754s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.754s]   warnings.warn(
+[0.755s] running install_lib
+[0.756s] copying /home/sparsh/ros2_ws/build/talker_listener/build/lib/talker_listener/talker_listener.launch.py -> /home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[0.756s] byte-compiling /home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/talker_listener.launch.py to talker_listener.launch.cpython-310.pyc
+[0.758s]   File "/home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/talker_listener.launch.py", line 18
+[0.758s]     return LaunchDescription([
+[0.759s]     ^^
+[0.759s] SyntaxError: 'return' outside function
+[0.759s] 
+[0.759s] running install_data
+[0.759s] creating /home/sparsh/ros2_ws/install/talker_listener/share/talker_listener/launch
+[0.760s] running install_egg_info
+[0.761s] removing '/home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[0.762s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+[0.762s] running install_scripts
+[0.779s] Installing listener script to /home/sparsh/ros2_ws/install/talker_listener/lib/talker_listener
+[0.779s] Installing talker script to /home/sparsh/ros2_ws/install/talker_listener/lib/talker_listener
+[0.780s] writing list of installed files to '/home/sparsh/ros2_ws/build/talker_listener/install.log'
+[0.800s] Invoked command in '/home/sparsh/ros2_ws/src/talker_listener' returned '0': PYTHONPATH=/home/sparsh/ros2_ws/build/talker_listener/prefix_override:/home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/sparsh/ros2_ws/build/talker_listener/build install --record /home/sparsh/ros2_ws/build/talker_listener/install.log --single-version-externally-managed

@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/sparsh/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/talker_listener.launch.py", line 18
+    return LaunchDescription([
+    ^^
+SyntaxError: 'return' outside function
+
